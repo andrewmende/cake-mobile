@@ -1,0 +1,86 @@
+/* Fonts */
+	
+	@import url('https://fonts.googleapis.com/css?family=Alice|Open+Sans&subset=cyrillic,cyrillic-ext');
+
+/* Stylesheet */
+	
+	body {
+		font-family: 'Open Sans', sans-serif;
+		margin: 0px;
+	}
+
+	a {
+		color: inherit;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		letter-spacing: 0.06em;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+	}
+
+	h1, h2 {
+		font-family: 'Alice', serif;
+	}
+
+	hr {
+		margin: 2em 0;
+	}
+
+/* Header block */
+	#header {
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/banner-1.jpeg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#header {
+		color: #fff;
+		text-align: center;
+		padding: 6em 3em 3em 3em;
+		height: auto;
+		min-height: 0;
+	}
+
+		#header h1 {
+			font-size: 2em;
+		}
+
+		#header a {
+			text-decoration: none;
+		}
+/* Products */
+	section.product {
+		text-align: center;
+		padding: 2em 2em 1em 2em;
+	}
+
+	.product-pic {
+		position: relative;
+		margin: 0px auto;
+		height: 200px;
+	}
+
+	.red-velvet-1 {
+		background: url('http://cakes.mende.ru/wp-content/uploads/2016/11/IMG_1753.jpg') no-repeat center;
+		background-size: cover;
+		animation: fade 10s infinite;
+		-webkit-animation: fade 10s infinite;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+
+	.product p {
+		text-align: left;
+		font-size: small;
+		margin: 1em auto;
+	}
+
+	.product-cta {
+		background: #1ce6e6;
+		width: 70%;
+		margin: 1em auto;
+		border-radius: 10px;
+		padding: 0.5em;
+	}
