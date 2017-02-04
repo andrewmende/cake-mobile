@@ -43,44 +43,65 @@
 	}
 
 		#header h1 {
-			font-size: 2em;
+			font-size: 3em;
 		}
 
 		#header a {
 			text-decoration: none;
 		}
+
+		#header p {
+			font-size: 1.5em;
+		}
 /* Products */
 	section.product {
 		text-align: center;
-		padding: 2em 2em 1em 2em;
+		padding: 3em 2em 0em 2em;
 	}
 
-	.product-pic {
-		position: relative;
-		margin: 0px auto;
-		height: 200px;
-	}
+		.product h2 {
+			font-size: 2em;
+		}
 
-	.red-velvet-1 {
-		background: url('http://cakes.mende.ru/wp-content/uploads/2016/11/IMG_1753.jpg') no-repeat center;
-		background-size: cover;
-		animation: fade 10s infinite;
-		-webkit-animation: fade 10s infinite;
-		position: absolute;
-		width: 100%;
-		height: 100%;
-	}
+		.product-pic {
+			position: relative;
+			margin: 0px auto;
+			height: 200px;
+		}
 
-	.product p {
-		text-align: left;
-		font-size: small;
-		margin: 1em auto;
-	}
+		.red-velvet-1 {
+			background: url('http://cakes.mende.ru/wp-content/uploads/2016/11/IMG_1753.jpg') no-repeat center;
+		}
 
-	.product-cta {
-		background: #DDDDDD;
-		width: 70%;
-		margin: 1em auto;
-		border-radius: 10px;
-		padding: 0.5em;
-	}
+		.chocolade-1 {
+			background: url('http://cakes.mende.ru/wp-content/uploads/2015/12/IMG_8397.jpg') no-repeat center;
+		}
+
+		.product-img {
+			background-size: cover;
+			animation: fade 10s infinite;
+			-webkit-animation: fade 10s infinite;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}
+
+		.product p {
+			text-align: left;
+			font-size: small;
+			margin: 1em auto;
+		}
+
+		.product-cta {
+			background: #DDDDDD;
+			width: 70%;
+			margin: 2em auto;
+			border-radius: 10px;
+			padding: 0.5em;
+		}
+
+		.product hr {
+			border: 0;
+    		border-bottom: solid 1px #DDDDDD;
+    		margin: 0;
+		}
